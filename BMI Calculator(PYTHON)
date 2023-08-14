@@ -1,0 +1,114 @@
+BMI Calculator
+"https://mercer-health.com/services/weight-management-center/bmi-calculator#:~:text=Body%20Mass%20Index%2C%20or%20BMI,inches%20x%20height%20in%20inches"
+
+1
+name = input("Enter your name")
+2
+​
+3
+weight = int(input("Enter weight in lbs: "))
+4
+​
+5
+height = int(input("Enter height in inches: "))
+6
+​
+7
+BMI = (weight * 703) / (height * height)
+8
+​
+9
+print(BMI)
+10
+​
+11
+if BMI>0:
+12
+    if(BMI<18.5):
+13
+        print(name +", you are underweight")
+14
+    elif(BMI<=24.9):
+15
+        print(name +", you are normal weight")
+16
+    elif(BMI<29.9):
+17
+        print(name +", you are overweight")
+18
+    elif(BMI<34.9):
+19
+        print(name +", you are obese")
+20
+    elif(BMI<39.9):
+21
+        print(name +", you are severely obese")
+22
+    else: print(name +", you are morbidly obese")
+23
+else:print("Enter valid input")
+Enter your nameTyler
+Enter weight in lbs: 220
+Enter height in inches: 74
+28.243243243243242
+Tyler, you are overweight
+1
+type(height)
+str
+1
+height = input("Enter weight in lbs: ")
+1
+​
+1
+​
+1
+​
+1
+#BMI = (weight in pounds x 703) / (height in inches x height in inches)
+1
+print(weight)
+1
+Under 18.5--->Underweight--->Minimal
+2
+18.5 - 24.9-->Normal Weight->Minimal
+3
+25 - 29.9---->Overweight---->Increased
+4
+30 - 34.9---->Obese--------->High
+5
+35 - 39.9---->Severely Obese->Very High
+6
+40 and over-->Morbidly Obese->Extremely High
+  Cell In[12], line 1
+    Under 18.5--->Underweight--->Minimal
+          ^
+SyntaxError: invalid syntax
+
+
+1
+if BMI>0:
+2
+    if(BMI<18.5):
+3
+        print(name +", you are underweight")
+4
+    elif(BMI<=24.9):
+5
+        print(name +", you are normal weight")
+6
+    elif(BMI<29.9):
+7
+        print(name +", you are overweight")
+8
+    elif(BMI<34.9):
+9
+        print(name +", you are obese")
+10
+    elif(BMI<39.9):
+11
+        print(name +", you are severely obese")
+12
+    else: print(name +", you are morbidly obese")
+13
+else:print("Enter valid input")
+Tyler, you are overweight
